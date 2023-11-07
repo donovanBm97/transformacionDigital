@@ -1,0 +1,63 @@
+
+@media (max-width: 770px) {
+    .viñetas{
+        padding-left: 15px;
+    }
+}
+
+@media (min-width: 770px) {
+    .viñetas{
+        padding-left: 15px;
+    }
+}
+
+@media (max-width: 770px) {
+    .cuadros{
+        padding-left: 35px;
+    }
+}
+
+@media (min-width: 770px) {
+    .cuadros{
+        padding: 20px; 
+        padding-left: 195px;
+    }
+}
+
+
+.temas{
+    margin-left: 25px;
+}
+
+/* .contenedor{
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+} */
+.texto-encima{
+    position: absolute;
+    top: 55px;
+    left: 30px;
+    color: #ffff;
+    font-size: 78px;
+    text-align: center;
+
+
+}
+.centrado{
+    position: absolute;
+    top: 45%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+    color: #ffff;
+    font-size: 24px;
+    text-align: justify;
+}
+
+.cuadrado {
+    width: 5px; 
+    height: 35px;
+    border-radius: 15px; 
+    background: #1C8C90;
+}
